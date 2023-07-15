@@ -91,7 +91,7 @@
 
 .header__background {
   position: absolute;
-  size: cover;
+  background: cover;
   z-index: -1;
 }
 
@@ -145,7 +145,6 @@
 
 .recipes__title {
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-style: none;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
