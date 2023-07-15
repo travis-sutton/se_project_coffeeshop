@@ -91,7 +91,7 @@
 
 .header__background {
   position: absolute;
-  background: cover;
+  background-size: cover;
   z-index: -1;
 }
 
