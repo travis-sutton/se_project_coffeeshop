@@ -9,12 +9,13 @@
   box-sizing: border-box;
   background-image: url(../images/background_header.svg);
   background-size: cover;
+  background-position: center;
 }
 
 .header__title {
   max-width: 729px;
   margin: 183px 0 0;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -26,18 +27,19 @@
   color: #2f80ed;
   font-style: italic;
   display: block;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   line-height: 72px;
 }
 
 .header__description {
   max-width: 683px;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 28px 0 0;
 }
 
 .header__image {
@@ -63,7 +65,7 @@
 }
 
 .header__paragraph {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -71,14 +73,4 @@
   color: #838383;
   padding: 0;
   margin: 0;
-}
-
-.header__address {
-  list-style-type: none;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
 }

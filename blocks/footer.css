@@ -18,7 +18,7 @@
 }
 
 .footer__social-heading {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -36,13 +36,17 @@
   margin-bottom: 16px;
 }
 
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
 .footer__social-link {
   color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -59,10 +63,11 @@
   width: 16px;
 }
 
-.footer__copywright {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+.footer__copyright {
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
 }
