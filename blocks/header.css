@@ -10,6 +10,7 @@
   background-image: url(../images/background_header.svg);
   background-size: cover;
   background-position: center;
+  z-index: 1;
 }
 
 .header__title {
@@ -48,11 +49,6 @@
   width: 646px;
   height: 568px;
   position: absolute;
-}
-
-.header__background {
-  position: absolute;
-  background-size: cover;
   z-index: -1;
 }
 
